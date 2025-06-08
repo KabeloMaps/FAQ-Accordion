@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url(./assets/fonts/static/WorkSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url(./assets/fonts/static/WorkSans-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "WorkSans-SemiBold";
+  src: url(./assets/fonts/static/WorkSans-SemiBold.ttf) format("truetype") s;
+}
+
+body {
+  font-family: "WorkSans-Regular";
+  color: hsl(292, 42%, 14%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(292, 16%, 49%);
+}
+
+.Top-panel {
+  padding: 0;
+  margin: 0;
+}
+.Bottom-panel {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(292, 16%, 49%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FAQ-Card {
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  font-family: "WorkSans-SemiBold";
+  border: solid hsl(0, 100%, 100%);
+  border-radius: 25px;
+  padding: 40px;
+  background-color: hsl(0, 100%, 100%);
+}
+
+#Header {
+  font-family: "WorkSans-Bold";
+  font-size: 40px;
+  display: flex;
+  width: 100%;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+#Prompt-1,
+#Prompt-2,
+#Prompt-3,
+#Prompt-4 {
+}
+
+h2 {
+  font-size: 16px;
+  width: 100%;
+}
+
+p {
+  color: white;
+}
+
+button {
+  background-color: white;
+  border-style: hidden;
+}
