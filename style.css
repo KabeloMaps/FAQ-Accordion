@@ -18,7 +18,7 @@
 
 body {
   font-family: "Work Sans", sans-serif;
-  color: hsl(292, 42%, 14%);
+  color: hsl(291, 16%, 50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +76,7 @@ img {
 #Prompt-3,
 #Prompt-4 {
   display: flex;
+  color: hsl(291, 24%, 33%);
 }
 
 h2 {
@@ -83,7 +84,7 @@ h2 {
   width: 100%;
 }
 
-p {
+.faq-answer {
   display: none;
   color: hsl(292, 16%, 69%);
   padding: 0;
@@ -93,4 +94,9 @@ p {
 button {
   background-color: white;
   border-style: hidden;
+}
+
+.Line-Break {
+  border-bottom: 0.5px solid rgb(238, 230, 230); /* Black underline */
+  padding-top: 20px;
 }
