@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/KabeloMaps/FAQ-Accordion.git
+- Live Site URL: https://faq-card-accordion.netlify.app
 
 ### Built with
 
