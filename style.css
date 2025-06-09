@@ -11,8 +11,13 @@
   src: url(./assets/fonts/static/WorkSans-SemiBold.ttf) format("truetype") s;
 }
 
+@font-face {
+  font-family: "WorkSans-VariableFont_wght";
+  src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf) format("truetype");
+}
+
 body {
-  font-family: "WorkSans-Regular";
+  font-family: "Work Sans", sans-serif;
   color: hsl(292, 42%, 14%);
   display: flex;
   justify-content: center;
@@ -32,6 +37,8 @@ body {
 }
 
 main {
+  font-family: "Work Sans", sans-serif;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -42,11 +49,13 @@ main {
   justify-content: center;
   align-items: center;
   min-width: 100vh;
-  font-family: "WorkSans-SemiBold";
+  color: hsl(292, 42%, 14%);
+  font-family: "Work Sans";
   border: solid hsl(0, 100%, 100%);
   border-radius: 25px;
   padding: 40px;
   background-color: hsl(0, 100%, 100%);
+  width: 100%;
 }
 
 #Header {
@@ -66,6 +75,7 @@ img {
 #Prompt-2,
 #Prompt-3,
 #Prompt-4 {
+  display: flex;
 }
 
 h2 {
@@ -74,7 +84,10 @@ h2 {
 }
 
 p {
-  color: white;
+  display: none;
+  color: hsl(292, 16%, 69%);
+  padding: 0;
+  margin: 0;
 }
 
 button {
